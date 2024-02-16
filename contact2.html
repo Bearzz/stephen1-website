@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Stephen's Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Ensure your CSS path is correct -->
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <!-- Add other navigation links here -->
+        </ul>
+    </nav>
+    
+    <h1>Contact Us</h1>
+    <p>If you have any questions or comments, please feel free to get in touch with us using the form below or through our social media channels.</p>
+    
+    <section id="contact-form">
+        <form action="submit_form_endpoint" method="POST"> <!-- Replace with your form submission endpoint -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <section id="contact-info">
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <!-- Add your social media links -->
+        <p>Twitter: <a href="#">@YourTwitter</a></p>
+        <p>LinkedIn: <a href="#">Your LinkedIn Profile</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Stephen's
