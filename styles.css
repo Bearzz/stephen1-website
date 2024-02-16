@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Updated styles for #greeting */
+#greeting {
+    font-size: 2rem; /* Responsive font size */
+    color: #2a9d8f; /* Updated to a soothing shade of teal */
+    background-color: #e9c46a; /* Soft, welcoming yellow background */
+    padding: 10px 20px;
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block; /* Adjusts the background to fit the content */
+    animation: fadeIn 2s ease-in-out; /* Adds the fade-in animation */
+}
+
+/* Adding the fadeIn animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
